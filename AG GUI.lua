@@ -26,12 +26,12 @@ local TopBar = Instance.new("Frame")
 local x = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local UICorner_10 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
+local TItle = Instance.new("TextLabel")
 
 --Properties:
 
 ActualUI.Name = "ActualUI"
-ActualUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ActualUI.Parent = game.Workspace
 ActualUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 UI.Name = "UI"
@@ -65,7 +65,6 @@ FarmFrame.Parent = SideBar
 FarmFrame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
 FarmFrame.Position = UDim2.new(1, 0, 0.00282414141, 0)
 FarmFrame.Size = UDim2.new(0, 321, 0, 204)
-FarmFrame.Visible = false
 
 UICorner_2.Parent = FarmFrame
 
@@ -162,29 +161,20 @@ UICorner_9.Parent = x
 
 UICorner_10.Parent = TopBar
 
-TextLabel.Parent = UI
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.438388646, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 51, 0, 22)
-TextLabel.Font = Enum.Font.GothamSemibold
-TextLabel.Text = "AG!"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 16.000
+TItle.Name = "TItle"
+TItle.Parent = UI
+TItle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TItle.BackgroundTransparency = 1.000
+TItle.Position = UDim2.new(0.438388646, 0, 0, 0)
+TItle.Size = UDim2.new(0, 51, 0, 22)
+TItle.Font = Enum.Font.GothamSemibold
+TItle.Text = "AG!"
+TItle.TextColor3 = Color3.fromRGB(255, 255, 255)
+TItle.TextSize = 16.000
 
 -- Scripts:
-local click = false
-FarmButton.MouseButton1Click:Connect(function()
-		if click == false then
-			click = true
-			FarmFrame.Visible = true
-			else
-			click = false
-			FarmFrame.Visible = false
-			end
-		end)
 
-local function UVJUKCR_fake_script() -- Toggles.LocalScript 
+local function SPMW_fake_script() -- Toggles.LocalScript 
 	local script = Instance.new('LocalScript', Toggles)
 
 	local tog = false
@@ -200,10 +190,10 @@ local function UVJUKCR_fake_script() -- Toggles.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UVJUKCR_fake_script)()
-local function UYFLWNU_fake_script() -- x.LocalScript 
+coroutine.wrap(SPMW_fake_script)()
+local function HVXGLZE_fake_script() -- x.LocalScript 
 	local script = Instance.new('LocalScript', x)
 
 	
 end
-coroutine.wrap(UYFLWNU_fake_script)()
+coroutine.wrap(HVXGLZE_fake_script)()
