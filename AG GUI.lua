@@ -173,6 +173,16 @@ TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 16.000
 
 -- Scripts:
+local click = false
+FarmButton.MouseButton1Click:Connect(function()
+		if click == false then
+			click = true
+			FarmFrame.Visible = true
+			else
+			click = false
+			FarmFrame.Visible = false
+			end
+		end)
 
 local function UVJUKCR_fake_script() -- Toggles.LocalScript 
 	local script = Instance.new('LocalScript', Toggles)
