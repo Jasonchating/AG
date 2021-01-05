@@ -174,24 +174,7 @@ TextLabel.TextSize = 16.000
 
 -- Scripts:
 
-local function MBPTS_fake_script() -- FarmButton.LocalScript 
-	local script = Instance.new('LocalScript', FarmButton)
-
-	local Farm = game.StarterGui.ActualUI.UI.SideBar.FarmFrame
-	local click = false
-	
-	Farm.MouseButton1Click:Connect(function()
-		if click == false then
-			click = true
-			Farm.Visible = true
-		else
-			click = false
-			Farm.Visible = false
-		end
-	end)
-end
-coroutine.wrap(MBPTS_fake_script)()
-local function WXEDSST_fake_script() -- Toggles.LocalScript 
+local function UVJUKCR_fake_script() -- Toggles.LocalScript 
 	local script = Instance.new('LocalScript', Toggles)
 
 	local tog = false
@@ -207,10 +190,10 @@ local function WXEDSST_fake_script() -- Toggles.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WXEDSST_fake_script)()
-local function POEP_fake_script() -- x.LocalScript 
+coroutine.wrap(UVJUKCR_fake_script)()
+local function UYFLWNU_fake_script() -- x.LocalScript 
 	local script = Instance.new('LocalScript', x)
 
 	
 end
-coroutine.wrap(POEP_fake_script)()
+coroutine.wrap(UYFLWNU_fake_script)()
