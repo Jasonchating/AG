@@ -31,7 +31,7 @@ local TItle = Instance.new("TextLabel")
 --Properties:
 
 ActualUI.Name = "ActualUI"
-ActualUI.Parent = game.Workspace
+ActualUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ActualUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 UI.Name = "UI"
@@ -174,7 +174,7 @@ TItle.TextSize = 16.000
 
 -- Scripts:
 
-local function SPMW_fake_script() -- Toggles.LocalScript 
+local function UZKOLBG_fake_script() -- Toggles.LocalScript 
 	local script = Instance.new('LocalScript', Toggles)
 
 	local tog = false
@@ -190,10 +190,10 @@ local function SPMW_fake_script() -- Toggles.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SPMW_fake_script)()
-local function HVXGLZE_fake_script() -- x.LocalScript 
+coroutine.wrap(UZKOLBG_fake_script)()
+local function BVQV_fake_script() -- x.LocalScript 
 	local script = Instance.new('LocalScript', x)
 
 	
 end
-coroutine.wrap(HVXGLZE_fake_script)()
+coroutine.wrap(BVQV_fake_script)()
