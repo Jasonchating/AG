@@ -184,7 +184,7 @@ UICorner_6.Parent = Open
 
 -- Scripts:
 
-local function AVCNOB_fake_script() -- Close.CloseScript 
+local function UGTSPK_fake_script() -- Close.CloseScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local open = script.Parent.Parent.Parent.Open
@@ -196,8 +196,8 @@ local function AVCNOB_fake_script() -- Close.CloseScript
 		open.Visible = true
 	end)
 end
-coroutine.wrap(AVCNOB_fake_script)()
-local function UVNTA_fake_script() -- AutoFarm.LocalScript 
+coroutine.wrap(UGTSPK_fake_script)()
+local function ZMMBQG_fake_script() -- AutoFarm.LocalScript 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	local frame = script.Parent.Parent.Parent.FarmFrame
@@ -219,8 +219,8 @@ local function UVNTA_fake_script() -- AutoFarm.LocalScript
 	
 	
 end
-coroutine.wrap(UVNTA_fake_script)()
-local function YVACHU_fake_script() -- Credit.LocalScript 
+coroutine.wrap(ZMMBQG_fake_script)()
+local function FLHRJPX_fake_script() -- Credit.LocalScript 
 	local script = Instance.new('LocalScript', Credit)
 
 	local cframe = script.Parent.Parent.Parent.CreditFrame
@@ -242,8 +242,8 @@ local function YVACHU_fake_script() -- Credit.LocalScript
 	
 	
 end
-coroutine.wrap(YVACHU_fake_script)()
-local function IHJE_fake_script() -- butt.LocalScript 
+coroutine.wrap(FLHRJPX_fake_script)()
+local function TDWGA_fake_script() -- butt.LocalScript 
 	local script = Instance.new('LocalScript', butt)
 
 	local tog = false
@@ -259,8 +259,8 @@ local function IHJE_fake_script() -- butt.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IHJE_fake_script)()
-local function FLXWFVL_fake_script() -- UI.LocalScript 
+coroutine.wrap(TDWGA_fake_script)()
+local function NCWXNLC_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	script.Parent.Visible = true
@@ -268,8 +268,8 @@ local function FLXWFVL_fake_script() -- UI.LocalScript
 	script.Parent.Active = true
 	
 end
-coroutine.wrap(FLXWFVL_fake_script)()
-local function KLJL_fake_script() -- Open.LocalScript 
+coroutine.wrap(NCWXNLC_fake_script)()
+local function MHZWYD_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	local ui = script.Parent.Parent.UI
@@ -280,4 +280,4 @@ local function KLJL_fake_script() -- Open.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(KLJL_fake_script)()
+coroutine.wrap(MHZWYD_fake_script)()
