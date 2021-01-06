@@ -242,7 +242,7 @@ coroutine.wrap(SWLQ_fake_script)()
 local function GYCGF_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
-	wait(9)
+	wait(0.1)
 	script.Parent.Visible = true
 end
 coroutine.wrap(GYCGF_fake_script)()
